@@ -3,6 +3,7 @@ let greeting = "Hello, everybody!";
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!");
 });
+
 it expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`);
 }
 it function() {
